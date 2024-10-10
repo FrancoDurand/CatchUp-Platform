@@ -1,3 +1,10 @@
+# **Members**
+- Rodrigo Alcántara
+- Daniel Chávarri
+- Gianfranco Durand
+
+---------
+
 **CatchUpPlatform News API**
 
 **Overview**
