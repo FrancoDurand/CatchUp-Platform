@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 // Registra el servicio de consulta y el repositorio
 builder.Services.AddScoped<IFavoriteSourceQueryService, FavoriteSourceQueryService>();
-builder.Services.AddScoped<IFavoriteSourceRepository, FavoriteSourceRepository>(); // Implementación del repositorio
+builder.Services.AddScoped<IFavoriteSourceRepository, FavoriteSourceRepository>(); // Implementaciï¿½n del repositorio
 
 var app = builder.Build();
 
@@ -22,7 +22,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
