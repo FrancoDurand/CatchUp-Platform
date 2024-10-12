@@ -1,4 +1,4 @@
-﻿namespace CatchUpPlatform.API.News.Domain.Commands.FavoriteSource
+﻿namespace CatchUpPlatform.API.News.Domain.Commands
 {
     public class DeleteFavoriteSourceCommand
     {
