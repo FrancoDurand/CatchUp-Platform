@@ -1,6 +1,6 @@
 ﻿namespace CatchUpPlatform.API.News.Domain.Model.Queries
 {
-    public class GetFavoriteSourceByNewsApiKeyAndSourceIdQuery
+    public record GetFavoriteSourceByNewsApiKeyAndSourceIdQuery
     {
         public string NewsApiKey { get; }
         public string SourceId { get; }

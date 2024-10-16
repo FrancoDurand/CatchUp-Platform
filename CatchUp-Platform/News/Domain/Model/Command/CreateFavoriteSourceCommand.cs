@@ -1,6 +1,6 @@
 ﻿namespace CatchUpPlatform.API.News.Domain.Commands
 {
-    public class CreateFavoriteSourceCommand
+    public record CreateFavoriteSourceCommand
     {
         public string NewsApiKey { get; set; }
         public string SourceId { get; set; }
